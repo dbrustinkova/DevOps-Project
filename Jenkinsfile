@@ -5,7 +5,7 @@ pipeline {
 				steps {
 					echo "STARTING BUILD"
 
-					sh 'docker build -t "flaskapp::$GIT_COMMIT" .'
+					sh 'docker build -t "flaskapp:$GIT_COMMIT" .'
 					
 					echo "BUILD WAS SUCCESSFUL"
 				}
