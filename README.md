@@ -1,3 +1,3 @@
 # DevOps-Project
-My simple flask project
+My flask project
 # 
